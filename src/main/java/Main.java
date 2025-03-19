@@ -14,15 +14,15 @@ public class Main {
         System.out.println("Podaj trzecią liczbę:");
         int liczba3 = scanner.nextInt();
         
-        int max = liczba1;
-        if (liczba2 > max) {
-            max = liczba2;
+        int najwieksza = liczba1;
+        if (liczba2 > najwieksza) {
+            najwieksza = liczba2;
         }
-        if (liczba3 > max) {
-            max = liczba3;
+        if (liczba3 > najwieksza) {
+            najwieksza = liczba3;
         }
         
-        System.out.println("Największa liczba to: " + max);
+        System.out.println("Największa liczba to: " + najwieksza);
         
         scanner.close();
     }
